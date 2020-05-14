@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>To-do List</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:600,800" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="intro col-12">
+                <h1>To-do List</h1>
+            <div>
+                <div class="border1"></div>
+            </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="helpText col-12">
+                <p id="first">Escreva a tarefa para adicionar o item a lista</p>
+                <p id="second">Clique no item para marcar como feito</p>
+                <p id="third">Clique em "X" para remover o item da lista</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12">
+                <input type="text" name="newtodo" id="userInput" placeholder="Adicionar Item..." maxlength="30">
+                <button id="enter"><i class="fas fa-pencil-alt"></i></button>
+            </div>
+        </div>
+
+        <!-- LISTA VAZIA-->
+
+        <div class="row">
+            <div class="listItems col-12">
+                   <ul class="col-12 offset-0 col-sm-8 offset-sm-2">
+
+                   </ul>
+            </div>    
+        </div>
+    </div>
+    
+    
+    <script src="script.js"></script>
+</body>
+</html>
